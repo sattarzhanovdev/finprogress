@@ -1,0 +1,108 @@
+.directions_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .directions{
+    width: 1440px;
+    padding: 50px 0;
+    @media (max-width: 450px) {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .title{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      @media (max-width: 1440px) {
+        margin: 0 5%;
+      }
+      h1{
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 20px;
+        color: #CB473C;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        // &::before{
+        //   content: '';
+        //   width: 100%;
+        //   height: 10px;
+        //   background: #CB473C;
+        //   border-radius: 50px;
+        //   position: absolute;
+        //   bottom: -20px;
+        // }
+        @media (max-width: 320px) {
+          font-size: 20px;
+        }
+      }
+      p{
+        width: 700px;
+        @media (max-width: 1024px) {
+          width: 500px;
+        }
+        @media (max-width: 768px) {
+          width: 300px;
+        }
+        @media (max-width: 320px) {
+          width: 280px;
+          font-size: 14px;
+        }
+      }
+    }
+    .cards{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      gap: 50px;
+      
+      @media (max-width: 1440px) {
+        margin: 0 5%;
+      }
+
+      @media (max-width: 768px) {
+        gap: 25px;
+      }
+      .card{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        @media (max-width: 320px) {
+          width: 300px;
+          height: 300px;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        &:hover .desc{
+          display: flex;
+          transition: .3s;
+        }
+        .desc{
+          width: 100%;
+          height: 100%;
+          display: none;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: rgba($color: #000000, $alpha: 0.6);
+          transition: .3s;
+          p{
+            padding: 0 25px;
+            text-align: center;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
