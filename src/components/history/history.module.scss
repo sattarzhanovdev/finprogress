@@ -36,10 +36,11 @@
     }
     .image{
       img{
-        width: 400px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         object-fit: cover;
-        object-position: center;
+        object-position: left;
+        border-radius: 15px;
         @media (max-width: 1024px) {
           width: 350px;
         }

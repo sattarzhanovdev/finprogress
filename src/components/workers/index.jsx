@@ -1,5 +1,9 @@
 import React from 'react'
 import c from './workers.module.scss'
+import { SlEnergy } from 'react-icons/sl'
+import { MdOutlineEmojiTransportation } from 'react-icons/md'
+import { GiGasMask } from 'react-icons/gi'
+import Workers_industry from '../workers_industry'
 
 const Workers = () => {
   return (
@@ -17,16 +21,7 @@ const Workers = () => {
             Все профессионалы высокой квалификации, с опытом работы в 
             проектных и строительно-монтажных организациях на различных 
             объектах: 
-            <span>
-              - Отраслей промышленности (газовой, нефтяной, дорожного 
-              строительства); 
-            </span>
-            <span>
-              - Транспорта (автодорожный, трубопроводный, железнодорожный) 
-            </span>
-            <span>
-              - Энергетики и связи.
-            </span>
+            <Workers_industry />
           </p>
           <p>
             Весь персонал периодически проходит обучение и аттестацию в 

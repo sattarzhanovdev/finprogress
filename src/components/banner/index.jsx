@@ -12,7 +12,7 @@ const Banner = () => {
         <div className={c.banner_content}>
           <h1>ФИНПРОГРЕСС</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quia repellendus modi delectus voluptate quam. Qui, quisquam? Similique necessitatibus molestias debitis, esse, nemo delectus ullam aliquam possimus eum at magnam?
+            ООО «ФИНПРОГРЕСС» представляет собой современное строительное предприятие, обладающее офисными, производственными и складскими помещениями, парком тяжелой, легковой и специальной строительной техники.  
           </p>
           <button onClick={() => window.scrollTo(0, 650)}>
             Узнать подробнее
