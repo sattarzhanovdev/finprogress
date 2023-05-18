@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <Components.NavBar />
+      <Components.NavPhone />
       <Routes>
         <Route path='/' element={<Components.Banner />}/>
         <Route path='/workers/' element={<Components.Workers />}/>
