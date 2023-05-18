@@ -2,15 +2,17 @@ import React from 'react'
 import { Components } from './components'
 import './App.scss'
 import { Route, Routes } from 'react-router-dom'
-import { Pages } from './pages'
 
 function App() {
   return (
     <div>
       <Components.NavBar />
       <Routes>
-        <Route path='/about/' element={<Pages.About />}/>
-        <Route path='/' element={<Pages.Main />}/>
+        <Route path='/' element={<Components.Banner />}/>
+        <Route path='/workers/' element={<Components.Workers />}/>
+        <Route path='/about/' element={<Components.About />}/>
+        <Route path='/technique/' element={<Components.Technique />}/>
+        <Route path='/objects/' element={<Components.Objects />}/>
       </Routes>
       <Components.Footer />
     </div>

@@ -1,3 +1,4 @@
+import About from "./about";
 import Banner from "./banner";
 import Directions from "./directions";
 import Footer from "./footer";
@@ -17,5 +18,6 @@ export const Components = {
   Workers,
   Technique,
   Objects,
-  Footer
+  Footer,
+  About
 }

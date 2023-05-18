@@ -4,36 +4,12 @@ import { NavList } from '../../utils'
 import { FaBars } from 'react-icons/fa'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import Sidebar from '../sidebar'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const NavBar = () => {
   const [ active, setActive ] = React.useState(false)
   const location = useLocation()
   
-  const Navivgate = useNavigate()
-
-  const scrolling = (item) => {
-    console.log(item);
-    if(item.title === 'Главная'){
-      Navigate('/')
-    }else if(item.title === 'О нас'){
-      Navigate(item.route)
-    }else if(item.title === 'Сотрудники'){
-      window.scrollTo(0, 650)
-      Navigate('/')
-
-    }else if(item.title === 'Тех. оборудование'){
-      window.scrollTo(0, 1549)
-      Navigate('/')
-
-    }else if(item.title === 'Наши объекты'){
-      window.scrollTo(0, 2180)
-      Navigate('/')
-    }
-  }
-
-  const Navigate = useNavigate()
-
   return (
     <div className={c.nav_container} >
       <div className={c.contacts}>
@@ -77,10 +53,11 @@ const NavBar = () => {
             NavList.map(item => (
               <li 
                 key={item.id}
-                onClick={() => scrolling(item)}
                 className={location.pathname === item.route ? c.active : null}
               >
-                {item.title}
+                <Link to={item.route}>
+                  {item.title}
+                </Link>
               </li>
             ))
           }
