@@ -8,7 +8,7 @@ const Objects = () => {
     <div className={c.objects_container} ref={ref}>
       <div className={c.objects}>
         <div className={c.title}>
-          <h1>Наши объекты</h1>
+          <h1>Объекты</h1>
         </div>
         <div className={c.objects_cards}>
           <div className={c.objects_card}>

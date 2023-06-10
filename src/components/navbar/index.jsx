@@ -2,7 +2,7 @@ import React from 'react'
 import c from './navbar.module.scss'
 import { NavList } from '../../utils'
 import { FaBars } from 'react-icons/fa'
-import { BsFillTelephoneFill } from 'react-icons/bs'
+import { BsEnvelope, BsFillTelephoneFill } from 'react-icons/bs'
 import Sidebar from '../sidebar'
 import { Link, useLocation } from 'react-router-dom'
 
@@ -21,9 +21,23 @@ const NavBar = () => {
             <div className={c.contact}>
               <h3>
                 <Link to={'tel:+78632830933'}>
-                  +7(863) 283-09-33
+                  +7 (863) 283-09-33
                 </Link>
               </h3>
+              
+            </div>
+          </div>
+          <div className={c.email}>
+            <div className={c.icon}>
+              <BsEnvelope /> 
+            </div>
+            <div className={c.contact}>
+              <h3>
+                <Link to={'mailto:info@finprogress.ru'}>
+                  info@finprogress.ru
+                </Link>
+              </h3>
+              
             </div>
           </div>
         </div>
@@ -43,19 +57,21 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <ul className={c.bars}>
+        <div className={c.bars}>
           <li onClick={() => setActive(true)}>
             <FaBars />
           </li>
-        </ul>
+        </div>
         <ul className={c.list}>
           {
             NavList.map(item => (
               <li 
                 key={item.id}
-                className={location.pathname === item.route ? c.active : null}
               >
-                <Link to={item.route}>
+                <Link 
+                  to={item.route} 
+                  className={location.pathname === item.route ? c.active : null}
+                >
                   {item.title}
                 </Link>
               </li>

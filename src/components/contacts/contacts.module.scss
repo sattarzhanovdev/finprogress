@@ -1,0 +1,48 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .contacts{
+    width: 1440px;
+    @media (max-width: 1440px) {
+      padding: 0 5%;
+    }
+    .info{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      gap: 25px 136px;
+      div{
+        width: 340px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        @media (max-width: 425px) {
+          width: 90%;
+        }
+        .left{
+          width: 50px;
+          li{
+            width: 25px;
+            font-size: 25px;
+            list-style: none;
+            color: #959595;
+            margin: 0;
+            img{
+              width: 25px;
+            }
+          }
+        }
+        .text{
+          display: flex;
+          flex-direction: column;
+          margin-left: 25px;
+          h4{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

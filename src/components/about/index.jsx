@@ -6,7 +6,6 @@ const About = () => {
     <div>
       <Components.History />
       <Components.Goals />
-      <Components.Directions />
     </div>
   )
 }

@@ -1,9 +1,11 @@
 export const NavList = [
   {id: 1, title: 'Главная', route: '/'},
-  {id: 2, title: 'О нас', route: '/about/'},
-  {id: 3, title: 'Сотрудники', route: '/workers/'},
-  {id: 4, title: 'Тех. оборудование', route: '/technique/'},
-  {id: 5, title: 'Наши объекты', route: '/objects/'},
+  {id: 2, title: 'О компании', route: '/about/'},
+  {id: 3, title: 'Объекты', route: '/objects/'},
+  {id: 4, title: 'Сотрудники', route: '/workers/'},
+  {id: 5, title: 'Техника', route: '/technique/'},
+  {id: 6, title: 'Продукция', route: '/products/'},
+  {id: 7, title: 'Контакты', route: '/contacts/'},
 ]
 
 export const DirectionsList = [

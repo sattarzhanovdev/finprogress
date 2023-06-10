@@ -9,7 +9,10 @@ const Workers_industry = () => {
     <div className={c.workers}>
       <div className={c.card}>
         <li >
-          <GiGasMask />
+          <img 
+            src='/img/icon/zavod.svg' 
+            alt='zavod' 
+          />
         </li>
         <p>
           Отраслей промышленности (газовой, нефтяной, дорожного строительства);
@@ -17,7 +20,10 @@ const Workers_industry = () => {
       </div>
       <div className={c.card}>
         <li>
-          <MdOutlineEmojiTransportation />
+          <img 
+            src='/img/icon/car.svg' 
+            alt='car' 
+          />
         </li>
         <p>
           Транспорта (автодорожный, трубопроводный, железнодорожный) 
@@ -25,7 +31,10 @@ const Workers_industry = () => {
       </div>
       <div className={c.card}>
         <li>
-          <SlEnergy />
+          <img 
+            src='/img/icon/energy.svg' 
+            alt='car' 
+          />
         </li>
         <p>
           Энергетики и связи
