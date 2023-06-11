@@ -47,7 +47,7 @@ const Objects = () => {
               </p>
             </div>
             <div className={c.card_image}>
-              <img src="https://telegra.ph/file/2892bbb38e625e2ccc748.jpg" alt="" />
+              <img src="https://wampi.ru/image/RX8K9Ik" alt="" />
             </div>
           </div>
         </div>
