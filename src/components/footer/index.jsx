@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={c.container}>
       <div className={c.footer}>
-        <p>2023 © ООО "ССК "Газрегион" 2016 г. Все права защищены</p>
+        <p>2023 © ООО «ФИНПРОГРЕСС». Все права защищены</p>
       </div>
     </div>
   )
