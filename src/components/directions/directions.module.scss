@@ -54,14 +54,13 @@
     }
     .cards{
       display: flex;
-      justify-content: center;
       flex-wrap: wrap;
       margin-top: 50px;
       gap: 50px;
       @media (max-width: 1442px) {
         padding: 50px 5%;
         margin: 0;
-        gap: 150px;
+        gap: 50px;
       }
 
       @media (max-width: 768px) {
