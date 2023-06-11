@@ -2,10 +2,11 @@ import React from 'react'
 import c from './sidebar.module.scss'
 import { NavList } from '../../utils'
 import { IoClose } from 'react-icons/io5'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const Sidebar = ({active, setActive}) => {
   const Navigate = useNavigate()
+  const location = useLocation()
   
   return (
     <div className={active ? c.sidebar : c.sidebar_none}>
@@ -19,9 +20,10 @@ const Sidebar = ({active, setActive}) => {
           NavList.map(item => (
             <li 
               key={item.id}
+              className={location.pathname === item.route ? c.active : ''}
               onClick={() => {
-                setActive(false)
                 Navigate(item.route)
+                setActive(false)
               }}
             >
               <Link to={item.route}>
