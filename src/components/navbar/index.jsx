@@ -9,14 +9,16 @@ import { Link, useLocation } from 'react-router-dom'
 const NavBar = () => {
   const [ active, setActive ] = React.useState(false)
   const location = useLocation()
-  
+
   return (
     <div className={c.nav_container} >
       <div className={c.contacts}>
         <div className={c.left}>
           <div className={c.phone}>
             <div className={c.icon}>
-              <BsFillTelephoneFill /> 
+              <a className={c.icon} href="tel:+78632830933">
+              <BsFillTelephoneFill />
+              </a>
             </div>
             <div className={c.contact}>
               <h3>
@@ -24,12 +26,15 @@ const NavBar = () => {
                   +7 (863) 283-09-33
                 </Link>
               </h3>
-              
+
             </div>
           </div>
           <div className={c.email}>
             <div className={c.icon}>
-              <BsEnvelope /> 
+              <a className={c.icon} href='mailto:info@finprogress.ru'>
+              <BsEnvelope />
+              </a>
+
             </div>
             <div className={c.contact}>
               <h3>
@@ -37,7 +42,7 @@ const NavBar = () => {
                   info@finprogress.ru
                 </Link>
               </h3>
-              
+
             </div>
           </div>
         </div>
@@ -65,11 +70,11 @@ const NavBar = () => {
         <ul className={c.list}>
           {
             NavList.map(item => (
-              <li 
+              <li
                 key={item.id}
               >
-                <Link 
-                  to={item.route} 
+                <Link
+                  to={item.route}
                   className={location.pathname === item.route ? c.active : null}
                 >
                   {item.title}
@@ -77,7 +82,7 @@ const NavBar = () => {
               </li>
             ))
           }
-          
+
         </ul>
 
       </div>
