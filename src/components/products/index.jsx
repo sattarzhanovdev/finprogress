@@ -1,6 +1,6 @@
 import React from "react";
 import c from "./products.module.scss";
-
+import img1 from '../products/quik1.jpg'
 const Products = () => {
   return (
     <div className={c.container}>
@@ -65,6 +65,47 @@ const Products = () => {
               бурового раствора.
             </p>
 
+          </div>
+        </div>
+        <div className={c.main__cards}>
+          <div className={c.main__card}>
+            <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+            <div className={c.main__text__card}>
+              <h3>Bentonite</h3>
+            </div>
+            <p className={c.info__text}>QUIK-GEL viscosifier is very easy-to-mix, finely ground in 200 mesh, premium-grade, high-yielding sodium bentonite, imparts viscosity and fluid loss control.</p>
+          </div>
+          <div className={c.main__card}>
+            <img src="https://kayensondaj.com/wp-content/uploads/HDD.jpg" alt="" />
+            <div className={c.main__text__card}>
+              <h3>Hdd Bentonite</h3>
+            </div>
+            <p className={c.info__text}>Nero Gel Hdd, specially designed for horizontal drilling operations, is a high viscosifier, very easy-to-mix, premium-grade, high-yielding sodium bentonite, imparts viscosity and fluid loss control.</p>
+          </div>
+          <div className={c.main__card}>
+            <img src="https://kayensondaj.com/wp-content/uploads/pelet.jpg" alt="" />
+            <div className={c.main__text__card}>
+              <h3>Pelleted Bentonite</h3>
+            </div>
+            <p className={c.info__text}>Pelleted Nero-Gel bentonite, prilled form of pure high-grade sodium bentonite imparts viscosity and lost circulation. Suitable for restoring unpermeable layers in the soil.</p>
+          </div>
+        </div>
+        <div className={c.next__line__cards}>
+          <div className={c.management}>
+            <div className={c.main__card}>
+              <img src="https://kayensondaj.com/wp-content/uploads/barit.jpg" alt="" />
+              <div className={c.main__text__card}>
+                <h3>Barite</h3>
+              </div>
+              <p className={c.info__text}>A natural weighting agent Barium Sulphate (BaSo4), highly increases the density of fluid mix in small amounts.</p>
+            </div>
+            <div className={c.main__card}>
+              <img src="https://kayensondaj.com/wp-content/uploads/kalsiyum.jpg" alt="" />
+              <div className={c.main__text__card}>
+                <h3>Calcium Carbonate</h3>
+              </div>
+              <p className={c.info__text}>Calcium Carbonate (CaCO3), is a weighting additive, increases the density of drilling fluid.</p>
+            </div>
           </div>
         </div>
       </div>
