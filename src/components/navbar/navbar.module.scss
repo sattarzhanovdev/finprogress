@@ -9,6 +9,12 @@
     padding: 15px 0;
     justify-content: space-between;
     align-items: center;
+    img{
+      width: 150px;
+      @media (max-width: 1024px) {
+        width: 120px;
+      }
+    }
     @media (max-width: 1440px) {
       width: 90%;
     }
@@ -29,6 +35,9 @@
         .icon{
           font-size: 20px;
           color: #CB473C;
+        }
+        @media (max-width: 650px) {
+          opacity: 0;
         }
         .contact{
           margin-left: 15px;
@@ -120,12 +129,7 @@
         list-style: none;
         a{
           display: block;
-          img{
-            width: 150px;
-            @media (max-width: 1024px) {
-              width: 120px;
-            }
-          }
+          
         }
       }
     }

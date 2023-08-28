@@ -13,7 +13,15 @@ const NavBar = () => {
   return (
     <div className={c.nav_container} >
       <div className={c.contacts}>
+      <ul className={c.logo}>
+          
+          <Link to={'/'}>
+            <img src='/img/logo.webp' alt=''/>
+          </Link>
+        
+      </ul>
         <div className={c.left}>
+       
           <div className={c.phone}>
             <div className={c.icon}>
               <a className={c.icon} href="tel:+78632830933">
@@ -55,18 +63,13 @@ const NavBar = () => {
         </div>
       </div>
       <div className={c.navbar}>
-        <ul className={c.logo}>
-          <li>
-            <Link to={'/'}>
-              <img src='/img/logo.webp' alt=''/>
-            </Link>
-          </li>
-        </ul>
+      <span></span>
         <div className={c.bars}>
           <li onClick={() => setActive(true)}>
             <FaBars />
           </li>
         </div>
+        
         <ul className={c.list}>
           {
             NavList.map(item => (

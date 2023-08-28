@@ -6,6 +6,8 @@ const Home = () => {
     <div>
       <Components.Banner />
       <Components.Directions />
+      <Components.History />
+      <Components.Goals />
     </div>
   )
 }

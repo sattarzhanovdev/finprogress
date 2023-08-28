@@ -47,6 +47,21 @@ const Objects = () => {
               <img src="/img/kotelnaya.jpg" alt="" />
             </div>
           </div>
+
+          <div className={c.objects_card}>
+            <div className={c.name}>
+              <h1>Строительство подводного перехода методом ГНБ</h1>
+              <p>
+                Устройство подводного перехода методом ГНБ через р. Метровый 
+                Донец, ж/д путей на перегоне Симявская  - Харпы 1331км ПК 4 по 
+                объекту:"Строительство альтернативного источника водоснабжения 
+                Река Дон - канал Северский Донец - Донбасс"
+              </p>
+            </div>
+            <div className={c.card_image}>
+              <img src="/img/fin3.jpg" alt="" />
+            </div>
+          </div>
           <div className={c.objects_card}>
             <div className={c.name}>
               <h1>Капитальный ремонт многоквартирных домов</h1>

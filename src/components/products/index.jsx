@@ -53,7 +53,8 @@ const Products = () => {
               переходники и пр.)
             </li>
           </ul>
-          <h3>Преимущества Бентонита</h3>
+          <h3>Преимущества Бентонита Nero Gel HDD</h3>
+          <br />
           <div className={c.preim}>
             <p>
               <span>1.</span>
@@ -64,50 +65,84 @@ const Products = () => {
               Стабильность параметров
               бурового раствора.
             </p>
+            <p>
+              <span>3.</span>
+              Очень простой в смешивании
+            </p>
+            <p>
+              <span>4.</span>
+              Не требует дополнительных полимеров и одинаково эффективно работает в песке,
+              в глине и обводнённом реактивном суглинке
+            </p>
 
           </div>
         </div>
-        <div className={c.main__cards}>
-          <div className={c.main__card}>
-            <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
-            <div className={c.main__text__card}>
-              <h3>Bentonite</h3>
+
+        <div className={c.productsParent}>
+          <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
+              <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+              <div className={c.productsParent__items_desc}> <p>⬆</p>
+                Это специально изготовленное присадка к буровому роствору,
+                снижающая вязкость и водоотдачу для колонкового бурения 
+               </div>
             </div>
-            <p className={c.info__text}>QUIK-GEL viscosifier is very easy-to-mix, finely ground in 200 mesh, premium-grade, high-yielding sodium bentonite, imparts viscosity and fluid loss control.</p>
+            <h3>Бурение Бентонита</h3>
           </div>
-          <div className={c.main__card}>
+          <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
             <img src="https://kayensondaj.com/wp-content/uploads/HDD.jpg" alt="" />
-            <div className={c.main__text__card}>
-              <h3>Hdd Bentonite</h3>
+              <div className={c.productsParent__items_desc}> <p>⬆</p>                Это специально разработаная для горизантального бурения, присадка для повышения вязкости, снижение потери воды</div>
             </div>
-            <p className={c.info__text}>Nero Gel Hdd, specially designed for horizontal drilling operations, is a high viscosifier, very easy-to-mix, premium-grade, high-yielding sodium bentonite, imparts viscosity and fluid loss control.</p>
+            <h3>Бентонит для горизантального бурения ГНб</h3>
           </div>
-          <div className={c.main__card}>
-            <img src="https://kayensondaj.com/wp-content/uploads/pelet.jpg" alt="" />
-            <div className={c.main__text__card}>
-              <h3>Pelleted Bentonite</h3>
+          <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
+              <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+              <div className={c.productsParent__items_desc}> <p>⬆</p> 
+              Его полуают путем сжатия бурового бентонита, это добавка, предотвращающая потерю воды и утечку
+              </div>
             </div>
-            <p className={c.info__text}>Pelleted Nero-Gel bentonite, prilled form of pure high-grade sodium bentonite imparts viscosity and lost circulation. Suitable for restoring unpermeable layers in the soil.</p>
+            <h3> Пелет БЕТНОНИТ</h3>
+          </div>
+          <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
+              <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+              <div className={c.productsParent__items_desc}> <p>⬆</p>Сульфат Бария (BaSo4) используется для усугубление баритового бурового раствора</div>
+            </div>
+            <h3>Барит</h3>
+          </div>
+          <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
+              <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+              <div className={c.productsParent__items_desc}> <p>⬆</p> Карбонат Кальция (CaCO3) используется для тяжести бурового раствораю</div>
+            </div>
+            <h3>Карбонат Кальция</h3>
+          </div>
+          {/* <div className={c.productsParent__items}>
+            <div className={c.productsParent__items__imges}>
+              <img src="https://kayensondaj.com/wp-content/uploads/Bentonit.jpg" alt="" />
+              <div className={c.productsParent__items_desc}> <p>⬆</p> Загуститель QUIK-GEL очень легко смешивается, мелко измельчен в 200 меш, высококачественный, высокопродуктивный бентонит натрия, придает вязкость и контроль водоотдачи.</div>
+            </div>
+            <h3>БЕТНОНИТ</h3>
+          </div>
+          */}
+        </div>
+
+        <div className={c.hDD}>
+          <div className={c.hDD__items}>
+            <img src="https://kayensondaj.com/wp-content/uploads/HDD.jpg" alt="" />
+            <br />
+            <h2>Бентонит Nero Gel HDD</h2>
+          </div>
+          <div className={c.hDD__items}>
+            Наша компания занимается поставкой и продажей турецкого высококачественного бентонита торговой марки Nero Gel HDD. <br /> <br />
+            Высокопроизводительный бентонит натрия с высоким содержанием загустителя является основой для приготовления буровых растворов при проведении горизонтально-направленного бурения и микротоннелирования. Ключевая особенность применения бентонита - его способность создать высокопрочную суспензию при затворении в воде, которая в свою очередь позволяет не только очищать скважину от выбуренной породы (шлама), но и укреплять стенки скважины за счет своей природной глинистой основы. <br /><br />
+            По вопросам покупки и сотрудничества обращаться по телефону: <br /> <a href="tel:+7 988 5626000">+7 988 5626000</a>
+
           </div>
         </div>
-        <div className={c.next__line__cards}>
-          <div className={c.management}>
-            <div className={c.main__card}>
-              <img src="https://kayensondaj.com/wp-content/uploads/barit.jpg" alt="" />
-              <div className={c.main__text__card}>
-                <h3>Barite</h3>
-              </div>
-              <p className={c.info__text}>A natural weighting agent Barium Sulphate (BaSo4), highly increases the density of fluid mix in small amounts.</p>
-            </div>
-            <div className={c.main__card}>
-              <img src="https://kayensondaj.com/wp-content/uploads/kalsiyum.jpg" alt="" />
-              <div className={c.main__text__card}>
-                <h3>Calcium Carbonate</h3>
-              </div>
-              <p className={c.info__text}>Calcium Carbonate (CaCO3), is a weighting additive, increases the density of drilling fluid.</p>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   );

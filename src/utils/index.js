@@ -1,11 +1,12 @@
 export const NavList = [
   {id: 1, title: 'Главная', route: '/'},
-  {id: 2, title: 'О компании', route: '/about/'},
+  // {id: 2, title: 'О компании', route: '/about/'},
   {id: 3, title: 'Объекты', route: '/objects/'},
   {id: 4, title: 'Сотрудники', route: '/workers/'},
   {id: 5, title: 'Техника', route: '/technique/'},
   {id: 6, title: 'Продукция', route: '/products/'},
   {id: 7, title: 'Контакты', route: '/contacts/'},
+  {id: 7, title: 'Строительство', route: '/stroy/'},
 ]
 
 export const DirectionsList = [

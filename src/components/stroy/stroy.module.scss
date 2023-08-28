@@ -1,0 +1,25 @@
+
+$texts:calc( 1vw + 1vh );
+.stroyContainer{
+    padding: 50px 5%;
+    &__ul{
+        margin-left: 3%;
+    }
+    &__titles{
+        color: #CB473C;
+        font-size:calc($texts * 1.3);
+        @media (max-width:650px) {
+            font-size:calc($texts * 1.8);
+        }
+    }
+
+
+}
+
+//Аккапдион
+//Аккапдион
+//Аккапдион
+  
+//Аккапдион
+//Аккапдион
+//Аккапдион

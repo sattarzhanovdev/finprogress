@@ -1,4 +1,4 @@
-import About from "./about";
+// import About from "./about";
 import Banner from "./banner";
 import Contacts from "./contacts";
 import Directions from "./directions";
@@ -12,6 +12,7 @@ import Products from "./products";
 import Technique from "./technique";
 import Workers from "./workers";
 import Footer from "./footer";
+import Stroy from "./stroy/index"
 
 
 export const Components = {
@@ -24,9 +25,10 @@ export const Components = {
   Workers,
   Technique,
   Objects,
-  About,
+  // About,c
   Home,
   Products,
   Contacts,
-  Footer
+  Footer,
+  Stroy
 }
