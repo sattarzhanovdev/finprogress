@@ -1,4 +1,5 @@
 import React from 'react'
+import Swip from './Swip'
 import c from './technique.module.scss'
 
 const Technique = () => {
@@ -46,7 +47,10 @@ const Technique = () => {
           <div><img src="/img/fin4.png" alt="" /></div>
           <div><img src="/img/fin5.png" alt="" /></div>
         </div>
+        <Swip/>
     </div>
+    
+
   )
 }
 
