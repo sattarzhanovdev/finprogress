@@ -11,11 +11,7 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "sass": "^1.66.1",
-=======
-    "sass": "^1.66.0",
->>>>>>> 100e1064f6db81bc04cfba4b8098883a71f45156
     "swiper": "^10.2.0",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
