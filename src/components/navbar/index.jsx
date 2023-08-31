@@ -39,15 +39,15 @@ const NavBar = () => {
           </div>
           <div className={c.email}>
             <div className={c.icon}>
-              <a className={c.icon} href='mailto:info@finprogress.ru'>
+              <a className={c.icon} href='mailto:finprogress61@mail.ru'>
               <BsEnvelope />
               </a>
 
             </div>
             <div className={c.contact}>
               <h3>
-                <Link to={'mailto:info@finprogress.ru'}>
-                  info@finprogress.ru
+                <Link to={'mailto:finprogress61@mail.ru'}>
+                finprogress61@mail.ru
                 </Link>
               </h3>
 
@@ -64,11 +64,11 @@ const NavBar = () => {
       </div>
       <div className={c.navbar}>
       <span></span>
-        <div className={c.bars}>
-          <li onClick={() => setActive(true)}>
+        {/* <div className={c.bars}>
+          {/* <li onClick={() => setActive(true)}>
             <FaBars />
-          </li>
-        </div>
+          </li> 
+        </div> */}
         
         <ul className={c.list}>
           {

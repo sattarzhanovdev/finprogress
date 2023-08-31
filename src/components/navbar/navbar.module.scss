@@ -142,6 +142,9 @@
       li{
         list-style: none;
         font-size: 20px;
+        @media (max-width: 858px) {
+          font-size: 24px;
+        }
       }
     }
     .list{
@@ -149,7 +152,8 @@
       align-items: center;
       z-index: 100;
       @media (max-width: 858px) {
-        display: none;
+        flex-wrap: wrap;
+        gap: 8px 5px  ;
       }
       li{
         list-style: none;
@@ -184,7 +188,7 @@
             color: #CB473C;
           }
           @media (max-width: 1024px) {
-            font-size: 12px;
+            font-size: 14px;
           }
           &.active{
             color: #CB473C;
