@@ -6,6 +6,10 @@ export const NavList = [
   {id: 5, title: 'Техника', route: '/technique/'},
   {id: 4, title: 'Сотрудники', route: '/workers/'},
   {id: 7, title: 'Контакты', route: '/contacts/'},
+<<<<<<< HEAD
+=======
+  {id: 7, title: 'Сстроительное направление', route: '/stroy/'},
+>>>>>>> 100e1064f6db81bc04cfba4b8098883a71f45156
 ]
 
 export const DirectionsList = [
