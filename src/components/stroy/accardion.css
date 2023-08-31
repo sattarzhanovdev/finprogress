@@ -1,48 +1,61 @@
-
 .container {
-    font-family: Arial, Tahoma;
+  font-family: Arial, Tahoma;
+}
+
+.accordion {
+  width: 100%;
+  padding: 3vmin;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  font-size: 18px;
+  text-align: left;
+  color: #CB473C;
+  cursor: pointer;
+  transition: 0.1s linear;
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+}
+
+.accordion:hover {
+  background-color: #dddddd;
+}
+
+.accordion:after {
+  content: "\002B";
+  float: right;
+  color: #CB473C;
+  font-size: 1.5em;
+}
+
+.active:after {
+  content: "\2212";
+  float: right;
+  color: #CB473C;
+}
+
+.desc {
+  /* padding:0 15px; */
+  height: 0;
+  overflow: hidden;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  border-top: 1px solid #afafaf;
+  border-bottom: 1px solid #afafaf;
+
+}
+.container h2{
+  color: #CB473C;
+    font-size: calc((1vw + 1vh) * 0.9);
+}
+@media (max-width: 650px){
+  .container h2 {
+      font-size: calc((1vw + 1vh) * 1.5);
   }
-  .accordion {
-    width: 100%;
-    padding:3vmin;
-    border: none;
-    outline: none;
-    background-color: #eee;
-    font-size: 18px;
-    text-align: left;
-    color: #CB473C;
-    cursor: pointer;
-    transition: 0.1s linear;
-    -webkit-transition: 0.1s linear;
-    -moz-transition: 0.1s linear;
-    -ms-transition: 0.1s linear;
-    -o-transition: 0.1s linear;
-  }
-  .accordion:hover {
-    background-color: #dddddd;
-  }
-  .accordion:after {
-    content: "\002B";
-    float: right;
-    color:#CB473C;
-    font-size: 1.5em;
-  }
-  .active:after {
-    content: "\2212";
-    float: right;
-    color:#CB473C;
-  }
-  .desc {
-    /* padding:0 15px; */
-    height: 0;
-    overflow: hidden;
-    transition: 0.2s linear;
-    -webkit-transition: 0.2s linear;
-    -moz-transition: 0.2s linear;
-    -ms-transition: 0.2s linear;
-    -o-transition: 0.2s linear;
-    border-top: 1px solid #afafaf;
-    border-bottom: 1px solid #afafaf;
-  
-  }
-  
+
+}
