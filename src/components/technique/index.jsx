@@ -6,9 +6,8 @@ const Technique = () => {
   return ( 
     <div className={c.technique_container}>
       <div className={c.technique}>
-        <div className={c.image}>
-          <img src="/img/tech.webp" alt="" />
-        </div> 
+        {/* <div className={c.image}>
+        </div>  */}
         <div className={c.title}>
           <h1>Техника</h1>
           <p>
@@ -46,6 +45,8 @@ const Technique = () => {
           <div><img src="/img/fin.png" alt="" /></div>
           <div><img src="/img/fin4.png" alt="" /></div>
           <div><img src="/img/fin5.png" alt="" /></div>
+          <div><img src="/img/tech.webp" alt="" /></div>
+
         </div>
         <Swip/>
     </div>
